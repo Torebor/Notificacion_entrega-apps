@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Pmeneses\Desktop\App_correos\app_notify_sms_cdn\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Pmeneses\Desktop\App_correos\app_notify_sms_cdn\app\src\debug\shaders"/></dataSet></merger>

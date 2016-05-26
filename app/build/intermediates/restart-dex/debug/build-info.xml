@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="16"
+    api-level="19"
     density="hdpi"
     format="7"
-    timestamp="23801869911495" >
+    timestamp="12381153051190" >
 
     <task
         name="javac"
-        duration="1389" />
+        duration="2686" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="407" />
+        duration="811" />
     <task
         name="verifier"
-        duration="110" />
+        duration="858" />
 
     <artifact
-        location="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\outputs\apk\app-debug.apk"
+        location="C:\Users\Pmeneses\Desktop\App_correos\app_notify_sms_cdn\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="23801869911495" >
+    <build timestamp="12381153051190" >
         <artifact
-            location="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Pmeneses\Desktop\App_correos\app_notify_sms_cdn\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 

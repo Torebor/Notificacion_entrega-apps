@@ -71,9 +71,19 @@ public class send_estado extends AppCompatActivity implements View.OnClickListen
                     }
                     else
                     {
-                        Text="2";
+                        Text="0";
                     }
-                    RadioButton rb = (RadioButton) findViewById(rbopciones.getCheckedRadioButtonId());
+                RadioButton rb;
+                if (rbopciones.getCheckedRadioButtonId() == -1)
+                {
+                    Toast.makeText(this,"Seleccione en resultado de la entrega antes de enviar",Toast.LENGTH_LONG).show();
+                    return;
+                }
+                else
+                {
+                    rb = (RadioButton) findViewById(rbopciones.getCheckedRadioButtonId());
+                }
+
                     if(aviso.equals("1"))
                     {
                         if(txtnumero.getText().toString().equals(""))
@@ -100,7 +110,8 @@ public class send_estado extends AppCompatActivity implements View.OnClickListen
                                         intento_envio=1;
                                     }
                                 }while(intento_envio==0);
-
+                                Toast.makeText(getApplicationContext(),"SMS Enviado",Toast.LENGTH_LONG).show();
+                                this.finish();
                             }
 
                         }
@@ -112,13 +123,13 @@ public class send_estado extends AppCompatActivity implements View.OnClickListen
                     }
                     else
                     {
-                        if(sms_send(destinatario,Codigo + ";" + rb.getText().toString()+";"+Cliente)==true)
+                        if(sms_send(destinatario,Codigo + ";" + rb.getText().toString()+";"+Cliente+";"+Text)==true)
                         {
                             Toast.makeText(getApplicationContext(),"SMS Enviado",Toast.LENGTH_LONG).show();
                             this.finish();
                         }
                         else {
-                            Toast.makeText(getApplicationContext(),"No se pudo enviar el Mensaje",
+                            Toast.makeText(getApplicationContext(),"No se pudo enviar el Mensaje, intentelo de nuevo",
                                     Toast.LENGTH_LONG).show();
                         }
                     }
