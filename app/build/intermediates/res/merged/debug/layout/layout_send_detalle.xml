@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:background="#61BBFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="#61BBFF"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar modem"
+        android:id="@+id/btn_add"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+        android:onClick="btn_add_click" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione el resultado de la entrega"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp" android:layout_marginRight="20dp"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbeefec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="false"
+            android:onClick="ckopciones_click"
+            android:textColor="#fff"
+            android:text="Entrega efectiva" />
+
+        <RadioButton
+            android:id="@+id/rbefalli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="false"
+            android:onClick="ckopciones_click"
+            android:textColor="#fff"
+            android:text="Entrega fallida" />
+        <RadioButton
+            android:id="@+id/rbnotifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:onClick="ckopciones_click"
+            android:checked="false"
+            android:textColor="#fff"
+            android:text="Notificado" />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#606060"
+        android:background="@drawable/text_redondo"
+        android:enabled="false"
+        android:hint="Nombre del receptor"
+        android:textSize="18dp"
+        android:singleLine="true"
+        android:padding="4dp"
+        android:textStyle="italic"
+        android:id="@+id/txtreceptor"
+        android:inputType="text"
+         />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="#606060"
+            android:background="@drawable/text_redondo"
+            android:layout_marginLeft="10dp"
+            android:enabled="false"
+            android:textSize="18dp"
+            android:padding="4dp"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:hint="Cédula del receptor"
+            android:id="@+id/txtcedula"
+            android:textStyle="italic"
+            android:inputType="text"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            app:borderWidth="0dp"
+            android:tint="#FFFF"
+            android:src="@drawable/ic_action_name"
+            app:backgroundTint="#115470"
+            app:pressedTranslationZ="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:singleLine="true"
+        android:textColor="#606060"
+        android:background="@drawable/text_redondo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Incidencia de la entrega Fallida"
+        android:id="@+id/txtincidencia"
+        android:enabled="false"
+        android:textSize="18dp"
+        android:padding="4dp"
+        android:textStyle="italic"
+        android:inputType="text"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp">
+        <!--<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_listo"
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+            android:onClick="btn_add_click"
+            android:background="@drawable/boton_redondo"
+            android:focusableInTouchMode="false" />-->
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_listo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="normal"
+            app:borderWidth="0dp"
+            android:tint="#FFFF"
+            android:src="@drawable/sms_listo"
+            app:backgroundTint="#115470"
+            app:pressedTranslationZ="12dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

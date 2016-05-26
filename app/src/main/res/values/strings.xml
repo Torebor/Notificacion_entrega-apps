@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Entrega Correos App</string>
+    <string name="String_EscanearCodigo">Escanear Código</string>
+    <string name="String_TituloAplicacion">Aplicación de entregas Correos de Nicaragua</string>
+</resources>

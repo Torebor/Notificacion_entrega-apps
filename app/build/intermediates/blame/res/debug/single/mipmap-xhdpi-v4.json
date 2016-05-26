@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Pmeneses\\Desktop\\EtregaCorreosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\sms_listo.png",
+        "source": "C:\\Users\\Pmeneses\\Desktop\\EtregaCorreosApp\\app\\src\\main\\res\\mipmap-xhdpi\\sms_listo.png"
+    },
+    {
+        "merged": "C:\\Users\\Pmeneses\\Desktop\\EtregaCorreosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\scan_img.png",
+        "source": "C:\\Users\\Pmeneses\\Desktop\\EtregaCorreosApp\\app\\src\\main\\res\\mipmap-xhdpi\\scan_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Pmeneses\\Desktop\\EtregaCorreosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Pmeneses\\Desktop\\EtregaCorreosApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Pmeneses\\Desktop\\EtregaCorreosApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\send_sms.png",
+        "source": "C:\\Users\\Pmeneses\\Desktop\\EtregaCorreosApp\\app\\src\\main\\res\\mipmap-xhdpi\\send_sms.png"
+    }
+]

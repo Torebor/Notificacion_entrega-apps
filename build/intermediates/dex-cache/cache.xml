@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.1_9f2d01301f82edda1c3b5fe9c52d635a2a1b68f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_b3b710acd9c0ac7e2bbd3b5f8c34caeabb4c83aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_60ec599e60601383c0b50382a877eba2ee444641.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_500db3aba34656d519975c40ebd5bf2bec9ce129.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.1.0_88f1124e628438973cfa2a021db2d33513c39465.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.1.0_07a004d6e73ce44aa85cbf930861603276df1003.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pmeneses\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_df0384eda3ba7a0703f259006219c20c6e49f63f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_7b981e6ef97d4adf28fa98949c8cc4d30ed165aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_ee5a17c7105cdc1bd0eda5a1ac50830b2b84ce47.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\Pmeneses\Desktop\EtregaCorreosApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_af63870827ad3321666693c0785f5f6a10146999.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#61BBFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione el resultado de la entrega"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp" android:layout_marginRight="20dp"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/rgopciones"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbeefec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="false"
+            android:textColor="#fff"
+            android:text="Entrega efectiva" />
+
+        <RadioButton
+            android:id="@+id/rbrezacho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="false"
+            android:textColor="#fff"
+            android:text="Rechazo" />
+        <RadioButton
+            android:id="@+id/rbnoreclamado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="false"
+            android:textColor="#fff"
+            android:text="No reclamado" />
+        <RadioButton
+            android:id="@+id/rbfallecido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="false"
+            android:textColor="#fff"
+            android:text="Fallecido" />
+        <RadioButton
+            android:id="@+id/rbdirinsu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="false"
+            android:textColor="#fff"
+            android:text="Dirección insuficiente" />
+        <RadioButton
+            android:id="@+id/rbcambiodomi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="false"
+            android:textColor="#fff"
+            android:text="Cambio de domicilio" />
+        <RadioButton
+            android:id="@+id/rbfueracober"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="false"
+            android:textColor="#fff"
+            android:text="Fuera cobertura" />
+        <RadioButton
+            android:id="@+id/rbdesconocido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="false"
+            android:textColor="#fff"
+            android:text="Desconicido" />
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_listo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="normal"
+            app:borderWidth="0dp"
+            android:tint="#FFFF"
+            android:src="@drawable/sms_listo"
+            app:backgroundTint="#115470"
+            app:pressedTranslationZ="12dp"
+            />
+
+            <LinearLayout
+                android:id="@+id/lycopy"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enviar copia a:"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="20dp" android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:hint="Numero EJ:77825484"
+                    android:id="@+id/txtphone" />
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

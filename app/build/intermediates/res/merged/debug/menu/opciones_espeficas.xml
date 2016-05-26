@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/select_modem"
+        android:title="seleccionar modem"
+        android:icon="@drawable/contacklist"
+        android:showAsAction="always" />
+</menu>
